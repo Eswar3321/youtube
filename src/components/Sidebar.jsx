@@ -6,7 +6,7 @@ const Sidebar = () => {
   const isMenuOpen = useSelector((store) => store.app.isMenuOpen);
   return (
     isMenuOpen && (
-      <div className="flex flex-col p-4 gap-4 w-44 max-sm:fixed bg-amber-50 max-sm:rounded-3xl">
+      <div className="flex flex-col p-4 gap-4 w-44 max-sm:fixed bg-white max-sm:rounded-3xl">
         <div className="border-b-1 pb-4 border-gray-400">
           <ul className="px-2">
             <li>
